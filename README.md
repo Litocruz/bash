@@ -1,18 +1,18 @@
-##Instalar ohmybash
+## Instalar ohmybash
 ```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
 ```
-###Editar bashrc
+### Editar bashrc
 ```bash
 vim ~/.bashrc
 OSH_THEME="agnoster"
 alias vim=nvim
 ```
-##Instalar neovim
+## Instalar neovim
 ```bash
 apt install neovim
 ```
-###Crear archivo configuracion neovim
+### Crear archivo configuracion neovim
 ```bash
 mkdir -p  ~/.config/nvim/ && vim .config/nvim/init.vim 
 ```
@@ -55,16 +55,19 @@ set termguicolors  " Activa true colors en la terminal
 "colorscheme zellner  " Nombre del tema
 
 ```
-###Aplicamos los cambios
+### Aplicamos los cambios
 ```bash
 source ~/.config/nvim/init.vim
 Then install this plugin in Nvim using command :PlugInstall.
 ```
 
-##LINKS
+## LINKS
 [ohmybash](https://ohmybash.nntoan.com/)
+
 [personalizarTerminal](https://www.edevars.com/blog/personalizar-terminal)
+
 [NERDTree](https://jdhao.github.io/2018/09/10/nerdtree_usage/)
+
 [NERDTree2](https://github.com/preservim/nerdtree)
 
 
